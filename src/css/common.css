@@ -1,18 +1,44 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-:root {
-  --font-family: 'Gilroy', sans-serif;
-  --main: #0c0c0c;
-  --accent: #3350e9;
-  --background: #fbfbfb;
-  --cards: #f3f3f3;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  background-color: #fbfbfb;
+  min-height: 100%;
 }
 
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+/*
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 44px;
+    line-height: 0.92;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+}
+  */
