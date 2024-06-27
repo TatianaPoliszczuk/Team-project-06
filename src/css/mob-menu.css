@@ -31,7 +31,7 @@
       rgba(12, 12, 12, 0.92) 0%,
       rgba(12, 12, 12, 0.92) 100%
     ),
-    url(../images/mobile-menu/mobile-menu-background-mob@1x.webp);
+    url(../img/mob_img/menu_mob_backgr.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -140,8 +140,6 @@
   height: 18px;
   width: 18px;
 }
-
-/* #region media */
 
 @media screen and (min-width: 768px) {
   .mobile-menu {
