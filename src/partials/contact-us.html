@@ -10,11 +10,11 @@
             </div>
             <div class="modal-field-contact"><label for="user-email" class="label-name">Email</label>
                 
-                <input type="email" name="user-email" class="modal-input" placeholder="user-email" id="user-email">
+                <input type="email" name="user-email" class="modal-input" placeholder="user-email" id="user-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
             </div>
             <div class="modal-field-contact"><label for="user-phone" class="label-name">Phone</label>
                 
-                <input type="tel" name="user-phone" class="modal-input" placeholder="user-phone" id="user-phone">
+                <input type="tel" name="user-phone" class="modal-input" placeholder="user-phone" id="user-phone" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" (+380-XX-XXX-XX-XX)>
             </div>
             <div class="modal-field-texarea-contact"><label for="user-comment" class="label-name">Comment</label>
                 <textarea name="user-comment" id="user-comment" class="modal-texarea" placeholder="Text input"></textarea>
@@ -24,13 +24,13 @@
     </div>
     <div class="contact-img">
     <picture>
-        <source media="(min-width: px)" srcset="">
-        <source media="(min-width: px)" srcset="">
-        <source media="(max-width:px)" srcset="">
+        <source media="(min-width: 1280px)" srcset="">
+        <source media="(min-width: 768px)" srcset="/src/img/tblet img/contact_watch_tblet.jpg 1x, /src/img/tblet img/contact_watch_tblet2x.jpg 1x">
+        <source media="(max-width: 320px)" srcset="/src/img/mob_img/contact_watch_mob.jpg 1x, /src/img/mob_img/contact_watch_mob@2x.jpg 2x">
         <img
-      src=""
-      alt=""
-      class=""
+      src="/src/img/mob_img/contact_watch_mob.jpg"
+      alt="contact_watch"
+      class="contact-watch-img"
       width=""
     />
       </picture>
