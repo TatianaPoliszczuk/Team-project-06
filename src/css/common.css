@@ -1,3 +1,23 @@
+
 body{
     background-color: #fbfbfb;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
 }
+
+:root {
+  --font-family: 'Gilroy', sans-serif;
+  --main: #0c0c0c;
+  --accent: #3350e9;
+  --background: #fbfbfb;
+  --cards: #f3f3f3;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+
