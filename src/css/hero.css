@@ -1,0 +1,99 @@
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  margin-bottom: 60px;
+}
+
+.hero .hero-title {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  height: 114px;
+  max-width: 375px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.hero .hero-title-span {
+  color: #3350e9;
+}
+
+.hero .hero-text {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 28px;
+}
+
+.hero .hero-list {
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 28px;
+}
+
+.hero-list .hero-box-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-box-list .box {
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid #fbfbfb;
+  transition: transform 250ms ease-in-out;
+}
+
+.hero-box-list .box:nth-child(1) {
+  border: 2px solid #fbfbfb;
+}
+
+.hero-box-list .box:nth-child(2) {
+  left: -10px;
+  border: 2px solid #fbfbfb;
+  z-index: 1;
+}
+
+.hero-box-list .box:nth-child(3) {
+  right: 20px;
+  border: 2px solid #fbfbfb;
+  z-index: 2;
+}
+
+.hero-box-list .box:hover {
+  transform: scale(1.2);
+}
+
+.hero-list .hero-link {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+  height: 18px;
+  margin-left: 125px;
+  margin-top: 26px;
+  transition: color 250ms ease-in-out;
+}
+
+.hero-list .hero-link:hover,
+.hero-list .hero-link:focus {
+  color: #3350e9;
+}
+
+.hero .hero-foto {
+  border-radius: 30px;
+}
