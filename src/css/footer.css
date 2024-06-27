@@ -304,6 +304,10 @@ font-size: 14px;
 }
 
 @media screen and (min-width:1280px) {
+
+
+    .footer-container {
+        }
     
         .footer-block {
             width: 1136px;
@@ -320,7 +324,7 @@ font-size: 14px;
                 position: absolute;
                 top: 40px;
                 right: 347px;
-                width: auto;
+                width: 523px;
                 padding: 0;
                 margin: 0;
         }
