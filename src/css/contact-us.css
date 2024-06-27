@@ -2,11 +2,13 @@
 
 
 .button-modal{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     margin: 0 auto;
     border-radius: 16px;
-    padding: 16px 32px;
+    padding: 12px 50px;
     min-width: 169px;
     font-weight: 500;
     line-height: 1.5;
