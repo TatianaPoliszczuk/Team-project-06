@@ -1,7 +1,12 @@
+
+body{
+    background-color: #fbfbfb;
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+
 }
 
 :root {
