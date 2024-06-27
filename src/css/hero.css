@@ -1,7 +1,13 @@
+body {
+  margin: 0;}
+    p {
+      margin: 0;
+    }
+
 .container {
-  max-width: 375px;
-  margin: 0 auto;
+  max-width: 335px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 
 .hero {
@@ -15,8 +21,7 @@
   line-height: 0.95;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  height: 114px;
-  max-width: 375px;
+  min-height: 114px;
   margin-top: 60px;
   margin-bottom: 20px;
 }
@@ -45,6 +50,7 @@
 .hero-list .hero-box-list {
   display: flex;
   flex-direction: row;
+  max-width: 108px;
 }
 
 .hero-box-list .box {
@@ -84,8 +90,9 @@
   text-decoration-skip-ink: none;
   color: #0c0c0c;
   height: 18px;
-  margin-left: 125px;
+  min-width: 72px;
   margin-top: 26px;
+  margin-left: 155px;
   transition: color 250ms ease-in-out;
 }
 
