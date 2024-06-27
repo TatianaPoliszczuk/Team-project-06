@@ -6,8 +6,6 @@ footer {
 .footer-block {
     background-color: #0c0c0c;
     color: #fff;
-    margin-left: 20px;
-    margin-right: 20px;
     text-align: center;
     border-radius: 30px;
     padding: 40px 28px 28px 28px;
@@ -199,8 +197,6 @@ footer {
                     border-radius: 30px;
                     padding: 40px 40px 28px 40px;
                     width: 624px;
-                    margin-left: 32px;
-                    margin-right: 32px;
                 }
 
 
