@@ -1,0 +1,221 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+    margin: 0;
+
+}
+
+.section-sale {
+    padding: 0px 65px;
+    width: 1280px;
+    display: flex;
+
+}
+
+.sale-content {
+    display: flex;
+}
+
+.sale-link {
+    padding: 40px 0;
+}
+
+.sale-logo {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+
+.sale-list {
+    display: block;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 20px;
+    width: 132px;
+    height: 132px;
+    background: #f3f3f3;
+    padding: 16px;
+    margin-top: 10px;
+}
+
+.sale-list-big {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 50px;
+    width: 428px;
+    height: 558px;
+    background: #f3f3f3;
+    padding: 80px 50px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+
+.container-sale-ty {
+    border-radius: 50px;
+    width: 530px;
+    height: 558px;
+    background-color: #3350e9;
+    margin-top: 84px;
+    margin-left: 40px;
+}
+
+.container-sale-ty-m {
+    padding: 60px 60px;
+    /* display: flex;
+    flex-wrap: wrap; */
+
+}
+
+.sale-logo-ty {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 112%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    width: 389px;
+}
+
+.sale-text {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    padding: 10px 0 20px;
+}
+
+.button-sale {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    background-color: rgba(251, 251, 251, 0.1);
+    border-radius: 8px;
+    width: 78px;
+    height: 32px;
+
+}
+
+.sale-text-ty {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+
+}
+
+.sale-text-fri {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    width: 410px;
+    padding: 40px 0;
+}
+
+.sale-button-f {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fbfbfb;
+    background-color: #3350e9;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    /* padding: 8px 12px; */
+    width: 145px;
+    height: 34px;
+}
+
+.sale-button-gr {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fbfbfb;
+    background-color: #3350e9;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    /* padding: 8px 12px; */
+    width: 139px;
+    height: 34px;
+}
+
+.sale-button-at {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fbfbfb;
+    background-color: #3350e9;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    /* padding: 8px 12px; */
+    width: 70px;
+    height: 34px;
+}
+
+.sale-button-go {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fbfbfb;
+    background-color: #3350e9;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    /* padding: 8px 12px; */
+    width: 64px;
+    height: 34px;
+}
+
+.sale-button-co {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fbfbfb;
+    background-color: #3350e9;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    /* padding: 8px 12px; */
+    width: 105px;
+    height: 34px;
+}
+
+.sale-button-ad {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fbfbfb;
+    background-color: #3350e9;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    /* padding: 8px 12px; */
+    width: 95px;
+    height: 34px;
+}
