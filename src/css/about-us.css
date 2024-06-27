@@ -1,0 +1,65 @@
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.about {
+  border-radius: 30px;
+  background-color: #f3f3f3;
+  min-width: 320px;
+  margin: 0 auto;
+
+}
+
+.about .about-div {
+  margin-bottom: 20px;
+}
+
+.about .about-title {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-top: 40px;
+  margin-bottom: 28px;
+}
+
+.about .about-text {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.about .about-text-one {
+  margin-bottom: 20px;
+}
+
+.about .about-text-two {
+  margin-bottom: 40px;
+}
+
+.about .about-button {
+  cursor: pointer;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  transition: background-color 250ms ease-in-out;
+  margin-bottom: 40px;
+}
+
+.about .about-button:hover,
+.about .about-button:focus {
+  background-color: #1f3cd4;
+}
