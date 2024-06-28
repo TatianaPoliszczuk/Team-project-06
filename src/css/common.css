@@ -1,81 +1,70 @@
-*,
-*::before,
-*::after {
-box-sizing: border-box;
-
-}
-
-:root {
---font-family: 'Gilroy', sans-serif;
---main: #0c0c0c;
---accent: #3350e9;
---background: #fbfbfb;
---cards: #f3f3f3;
-}
-
-html {
-  overflow-x: hidden;
-}
+*, ::before , *::after {
+	box-sizing: border-box;
+} 
 
 body {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
-  background-color: #fbfbfb;
-  overflow-x: hidden;
+	font-family: Gilroy, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+
+	color: #0c0c0c;
+	background-color: rgba(255, 255, 255, 0.87);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
 }
 
-ul,
-ol {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+
+/* ---MOBILE MEDIA--- */
+
+@media screen and (min-width: 375px) {
+	.container {
+		max-width: 375px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.section {
+		padding-bottom: 60px;
+		
+	}
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
+/* ---TABLET MEDIA---*/
+
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 768px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.section {
+		padding-bottom: 80px;
+	}
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+/* ---DESCTOP MEDIA--- */
+
+@media screen and (min-width: 1280px) {
+	.container {
+		max-width: 1280px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 65px;
+		padding-right: 65px;
+	}
+
+	.section {
+		padding-bottom: 100px;
+	}
 }
 
-a {
-  text-decoration: none;
-}
-
-.container {
-  max-width: 375px;
-  min-width: 320px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-  h2 {
-    font-size: 48px;
-    line-height: 44px;
-    line-height: 0.92;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 65px;
-  }
-}
