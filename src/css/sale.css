@@ -90,7 +90,7 @@ p {
     width: 235px;
     height: 285px;
     background: url("path_to_image");
-    transform: rotate(-180deg);
+    
 }
 
 
@@ -153,7 +153,6 @@ p {
     justify-content: center;
     align-items: center;
     color: var(--background);
-
 }
 
 .sale-old-price {
