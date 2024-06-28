@@ -1,23 +1,16 @@
-*, ::before , *::after {
-	box-sizing: border-box;
-} 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
 	font-family: Gilroy, sans-serif;
 	font-size: 16px;
-	line-height: 24px;
-	font-weight: 400;
-
+	line-height: 125%;
+	font-weight: 500;
 	color: #0c0c0c;
 	background-color: rgba(255, 255, 255, 0.87);
 
-	font-synthesis: none;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-text-size-adjust: 100%;
 }
-
 
 /* ---MOBILE MEDIA--- */
 
@@ -29,13 +22,7 @@ body {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-
-	.section {
-		padding-bottom: 60px;
-		
-	}
 }
-
 /* ---TABLET MEDIA---*/
 
 @media screen and (min-width: 768px) {
