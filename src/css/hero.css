@@ -1,13 +1,17 @@
 
-.container-heroabout {
-  max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
+/* .container-hero {
+  
+} */
 
 .hero {
   margin-bottom: 60px;
   max-height: 732px;
+}
+
+.hero .hero-flex{
+  padding: 0 20px;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .hero .hero-title {
@@ -104,16 +108,13 @@
   color: #3350e9;
 }
 
-.hero .hero-foto {
-  border-radius: 30px;
+.hero .hero-img{
+  width: 335px;
+  
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px){
-  .container-heroabout {
-      max-width: 768px;
-      padding: 0 32px;
-      margin: 0 auto;
-    }
   .hero {
       margin: 80px 0;
       max-height: 900px;
@@ -149,6 +150,9 @@
       gap: 20px;
     }
     .hero .hero-flex{
+      max-width: 768px;
+      padding: 0 32px;
+      margin: 0 auto;
       display: flex;
       flex-direction: row;
       gap: 11px;
@@ -207,12 +211,7 @@
 }
 
 @media screen and (min-width: 1280px){
-    .container-heroabout {
-    max-width: 1280px;
-    padding: 0 65px;
-    margin: 0 auto;
-    }
-
+    
     .hero {
       margin: 80px 0;
       max-height: 889px;
@@ -227,6 +226,9 @@
 
     .hero .hero-flex {
     gap: 407px;
+    max-width: 1280px;
+    padding: 0 65px;
+    margin: 0 auto;
     }
 
     /* .hero .hero-picture {
