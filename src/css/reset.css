@@ -1,12 +1,11 @@
 /* Reset styles */
-html,
-body,
-div,
-span,
-img,
-ol,
 ul,
-li,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -15,31 +14,23 @@ h5,
 h6,
 p {
   margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+ 
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  list-style: none;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
-  color: currentColor;
   text-decoration: none;
 }
 
 button {
+  font-family: inherit;
   cursor: pointer;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+  background-color: transparent;
+  padding: 0;
+  border: 0;
 }
