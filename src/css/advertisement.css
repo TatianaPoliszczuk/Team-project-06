@@ -104,6 +104,7 @@
   @media screen and (min-width: 1280px) {
     .container{
         padding: 0 65px;
+        min-width: 320px;
     }
 
     .adv-container {
