@@ -19,7 +19,7 @@
     overflow: hidden;
   }
   
-  .adv-container::before {
+  .adv-container {
     content: '';
     position: absolute;
     top: 0;
@@ -34,7 +34,7 @@
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
-    .adv-container::before {
+    .adv-container {
       background-image: url(../img/mob_img/advert_backg_mob@2x.jpg);
     }
   }
@@ -81,14 +81,14 @@
       padding: 80px 64px;
     }
   
-    .adv-container::before {
+    .adv-container {
       background-image: url(../img/tblet_img/advert_backg_tblet.jpg);
     }
   
     @media screen and (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 2dppx),
       (min-resolution: 192dpi) {
-      .adv-container::before {
+      .adv-container {
         background-image: url(../img/tblet_img/advert_backg_tblet@2x.jpg);
       }
     }
@@ -102,19 +102,24 @@
   }
   
   @media screen and (min-width: 1280px) {
+    .container{
+        padding: 0 65px;
+    }
+
+    .adv-container {
+        background-image: url(../img/decst_img/advert_backg_desc.jpg);
+      }
+
+    
     .adv-text {
       max-width: 690px;
       margin-bottom: auto;
     }
-  
-    .adv-container::before {
-      background-image: url(../img/decst_img/advert_backg_desc.jpg);
-    }
-  
+
     @media screen and (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 2dppx),
       (min-resolution: 192dpi) {
-      .adv-container::before {
+      .adv-container {
         background-image: url(../img/decst_img/advert_backg_desc@2x.jpg);
       }
     }
@@ -124,4 +129,4 @@
       top: 80px;
       right: 80px;
     }
-  }
+}
