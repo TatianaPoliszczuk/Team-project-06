@@ -18,14 +18,13 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+/* ---MOBILE MEDIA--- */
 
-.container {
-  min-width: 320px;
-  width: 100%;
-  padding: 0 20px;
-  margin: 0 auto;
+@media (min-width: 375px) {
+  .container {
+    max-width: 370px;
+  }
 }
-
 
 /* ---TABLET MEDIA---*/
 
