@@ -9,6 +9,13 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+  
   .advertisement {
     padding: 50px 0;
   }
