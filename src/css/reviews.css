@@ -1,16 +1,16 @@
-.section-reviews{padding: 0px 20px;
+
+.section-reviews{
+    padding: 0px 20px;
     width: 375px;
     height: 318px;
-margin: 60px;
-background-color:  #fbfbfb;}
-.title-reviews{font-family: "Gilroy", sans-serif;
+margin: 60px ;
+}
+.title-reviews{
 font-weight: 600;
-font-size: 32px;
-line-height: 1;
-letter-spacing: -0.02em;
-color: #0c0c0c;
-
-padding-left: 20px;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
 }
 
 .reviews-item{
@@ -37,6 +37,7 @@ padding-left: 20px;
     letter-spacing: -0.02em;
     text-align: center;
     color: #0c0c0c;
+    padding-top: 24px;
 padding-bottom: 8px;}
     .text-reviews{font-weight: 500;
         font-size: 14px;
@@ -73,7 +74,7 @@ padding-bottom: 8px;}
          .name-reviews{font-weight: 500;
          font-size: 18px;
          line-height: 1.1;
-        padding-top: 24px;}
+        }
          .text-reviews{font-size: 16px;
             line-height: 1.25;
         letter-spacing: -0.02em;
