@@ -1,12 +1,78 @@
+.contact-us-container{
+ display: flex;
+padding: 0px 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
 
-
+}
+.title-contact{
+    color: #0C0C0C;
+font-family: Gilroy;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0.02em;
+}
+.modal-contact{
+ background: #F3F3F3;
+ border-radius: 30px;
+ display: flex;
+ flex-direction: column;
+ padding: 48px 28px;
+ align-items: flex-start;
+ gap: 10px;
+ 
+}
+.modal-field-contact{
+    margin-bottom: 18px;
+}
+.modal-text-contact{
+    min-width: 279px;
+    color: rgba(12, 12, 12, 0.70);
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 128%;
+letter-spacing: 0.02em;
+margin-bottom: 28px;
+}
+.modal-input{
+    width: 279px;
+    height: 42px;
+    border-radius: 12px;
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    padding-left: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #0C0C0C;
+}
+.modal-texarea{
+    width: 279px;
+    height: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    padding-left: 14px;
+    padding-top: 12px;
+}
+.placeholder{
+    color: #0C0C0C;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%;
+    
+}
 
 .button-modal{
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin: 0 auto;
+    margin-top: 28px;
     border-radius: 16px;
     padding: 12px 50px;
     min-width: 169px;
@@ -16,7 +82,67 @@
     color: #FBFBFB;
     border: none;
     height: 42px;
+    width: 134px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
    background: #3350E9;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact-img-wrap{
+    width: 335px;
+    height: 512px;
+    border-radius: 30px;
+    background: url(<path-to-image>) lightgray -264.69px -8.534px / 263.26% 103.41% no-repeat;
+  }
+
+  @media screen and (min-width: 768px) {
+    .container{
+        max-width: 768px;
+      }
+    .title-contact{
+        width: 240px;
+        height: 44px;
+    }
+    
+    .modal-contact{
+      padding: 50px 122px;
+      
+    }
+    .modal-input{
+      width: 460px;
+      height: 52px;
+    }
+    .modal-texarea{
+      width: 460px;
+      height: 100%;
+    }
+    .contact-img-wrap{
+      border-radius: 50px;
+      width: 704px;
+      height: 556px;
+    }
+  }
+
+
+  @media screen and (min-width: 1280px) {
+    .container{
+        max-width: 1280px;
+      }
+    .title-contact{
+        width: 240px;
+        height: 44px;
+    }
+    .modal-contact{
+        border-radius: 50px;
+        padding: 40px;
+        width: 580px;
+        height: 556px;
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    
+    .contact-img-wrap{
+      width: 530px;
+      height: 556px;
+    }
   }
