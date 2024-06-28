@@ -12,16 +12,9 @@
     z-index: 999;
     transition: transform .35s cubic-bezier(.4,0,.2,1);
     transform: translate(100%);
+    background-image: url(../img/mob_img/menu_mob_backgr.jpg);
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2),
-  (min-rezolution: 2dppx),
-  (min-rezolution: 192dpi) {
-  .topline {
-    background-image: 
-      url(../img/mob_img/menu_mob_backgr.jpg);
-  }
-}
 
 .mobile-menu {
   display: flex;
@@ -33,9 +26,8 @@
 .is-open {
   visibility: visible;
   opacity: 1;
-  transform: translateX(0);
-  transition-timing-function: ease-in;
-  transition: transform 0.5s;
+  transform: translateX(0%);
+  transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-close-mob-menu {
   padding: 0;
