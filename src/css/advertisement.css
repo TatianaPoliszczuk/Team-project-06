@@ -116,7 +116,7 @@
       (min-resolution: 192dpi) {
       .adv-container::before {
         background-image: url(../img/decst_img/advert_backg_desc@2x.jpg);
-      }.jp
+      }
     }
   
     .adv-btn {
