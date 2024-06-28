@@ -18,7 +18,7 @@
       rgba(17, 17, 17, 0.4),
       rgba(17, 17, 17, 0.4)
     ),
-    url('../images/advertisement/advertisement-background-mob@1x.webp');
+    url('../img/mob_img/advert_backg_mob.jpg');
 }
 
 @media (min-resolution: 192dpi) {
@@ -27,7 +27,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
       ),
-      url('../images/advertisement/advertisement-background-mob@2x.webp');
+      url('../img/mob_img/advert_backg_mob@2x.jpg');
   }
 }
 
@@ -91,7 +91,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
       ),
-      url('../images/advertisement/advertisement-background-tab@1x.webp');
+      url('../img/tblet_img/advert_backg_tblet.jpg');
   }
 
   .advertisement-text {
@@ -108,7 +108,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
       ),
-      url('../images/advertisement/advertisement-background-tab@2x.webp.webp');
+      url('../img/tblet_img/advert_backg_tblet@2x.jpg');
   }
 }
 
@@ -128,7 +128,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
       ),
-      url('../images/advertisement/advertisement-background-desc@1x.webp');
+      url('../img/decst_img/advert_backg_desc.jpg');
   }
 
   .advertisement-text {
@@ -162,7 +162,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
       ),
-      url('../images/advertisement/advertisement-background-desc@2x.webp');
+      url('../img/decst_img/advert_backg_desc@2x.jpg');
   }
 }
 
