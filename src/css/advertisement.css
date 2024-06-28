@@ -26,7 +26,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/src/img/mob_img/advert_backg_mob.jpg');
+    background-image: url(../img/mob_img/advert_backg_mob.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -35,7 +35,7 @@
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .adv-container::before {
-      background-image: url('/src/img/mob_img/advert_backg_mob@2x.jpg');
+      background-image: url(../img/mob_img/advert_backg_mob@2x.jpg);
     }
   }
   
@@ -82,14 +82,14 @@
     }
   
     .adv-container::before {
-      background-image: url('/src/img/tblet_img/advert_backg_tblet.jpg');
+      background-image: url(../img/tblet_img/advert_backg_tblet.jpg);
     }
   
     @media screen and (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 2dppx),
       (min-resolution: 192dpi) {
       .adv-container::before {
-        background-image: url('/src/img/tblet_img/advert_backg_tblet@2x.jpg');
+        background-image: url(../img/tblet_img/advert_backg_tblet@2x.jpg);
       }
     }
   
@@ -108,15 +108,15 @@
     }
   
     .adv-container::before {
-      background-image: url('/src/img/decst_img/advert_backg_desc.jpg');
+      background-image: url(../img/decst_img/advert_backg_desc.jpg);
     }
   
     @media screen and (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 2dppx),
       (min-resolution: 192dpi) {
       .adv-container::before {
-        background-image: url('/src/img/decst_img/advert_backg_desc@2x.jpg');
-      }
+        background-image: url(../img/decst_img/advert_backg_desc@2x.jpg);
+      }.jp
     }
   
     .adv-btn {
