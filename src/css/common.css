@@ -13,8 +13,10 @@ box-sizing: border-box;
 --cards: #f3f3f3;
 }
 
-html {
+html, body {
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -59,6 +61,7 @@ a {
   min-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
+  overflow: hidden; 
 }
 
 @media (min-width: 768px) {
