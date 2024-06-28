@@ -1,0 +1,127 @@
+.adv-container {
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 60px 28px;
+    background-color: #0c0c0c;
+    position: relative;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  .adv-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/img/mob_img/advert_backg_mob.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .adv-container::before {
+      background-image: url('/src/img/mob_img/advert_backg_mob@2x.jpg');
+    }
+  }
+  
+  .adv-text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 27px;
+    max-width: 279px;
+  }
+  
+  .adv-text-color {
+    color: rgba(251, 251, 251, 0.5);
+  }
+  
+  .adv-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    display: block;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    background-color: transparent;
+    padding: 15px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .adv-btn:hover,
+  .adv-btn:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+    outline: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .adv-container {
+      padding: 80px 64px;
+    }
+  
+    .adv-container::before {
+      background-image: url('/src/img/tblet_img/advert_backg_tblet.jpg');
+    }
+  
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 2dppx),
+      (min-resolution: 192dpi) {
+      .adv-container::before {
+        background-image: url('/src/img/tblet_img/advert_backg_tblet@2x.jpg');
+      }
+    }
+  
+    .adv-text {
+      font-size: 48px;
+      line-height: 0.9;
+      max-width: 576px;
+      margin-bottom: 32px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .adv-text {
+      max-width: 690px;
+      margin-bottom: auto;
+    }
+  
+    .adv-container::before {
+      background-image: url('/src/img/decst_img/advert_backg_desc.jpg');
+    }
+  
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 2dppx),
+      (min-resolution: 192dpi) {
+      .adv-container::before {
+        background-image: url('/src/img/decst_img/advert_backg_desc@2x.jpg');
+      }
+    }
+  
+    .adv-btn {
+      position: absolute;
+      top: 80px;
+      right: 80px;
+    }
+  }
