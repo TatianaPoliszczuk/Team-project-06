@@ -4,6 +4,7 @@
     padding-right: 16px;
     min-width: 312px;
     max-width: 367px;
+    
 }
 
 .advertisement-container {
@@ -81,10 +82,10 @@
 
 @media (min-width: 768px) {
   .advertisement-section{
-    max-width: 736px;
+    
     margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .advertisement-container {
     width: 704px;
@@ -112,6 +113,7 @@
 @media (min-width: 1280px) {
 
 .advertisement-section{
+  margin-top: 100px;
   padding: 50px 0;
 }
 
