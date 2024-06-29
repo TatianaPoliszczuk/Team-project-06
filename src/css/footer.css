@@ -1,7 +1,11 @@
 
 footer {
     margin: 0 auto;
-    width: 320px;
+    /* width: 320px; */
+    width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+        text-align: center;
 }
 
 
@@ -11,7 +15,7 @@ footer {
     text-align: center;
     border-radius: 30px;
     padding: 40px 28px 28px 28px;
-    width: 279px;
+    min-width: 320px;
 }
 
 
@@ -68,15 +72,18 @@ footer {
 .footer-phone {
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 16px;
-    width: 152px;
+    width: 100%;
+    max-width: 152px;
     margin-bottom: 40px;
+    padding: 14px 20px;
+    box-sizing: border-box;
 }
 
 
 .footer-phone-link {
     text-decoration: none;
     margin: 10px 0;
-    display: block;
+    display: inline-block;
     font-weight: 500;
     font-size: 12px;
     line-height: 133%;
@@ -84,7 +91,9 @@ footer {
     text-align: center;
     color: #fbfbfb;
     margin: 0;
-    padding: 14px 20px;
+    width: 100%;
+    white-space: nowrap;
+    /* padding: 14px 20px; */
 }
 
 .footer-slogan {
@@ -192,7 +201,7 @@ footer {
 .footer-social-icon:hover,
 .footer-social-icon:focus {
     fill: #fbfbfb;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -208,8 +217,8 @@ footer {
 @media screen and (min-width:768px) {
 
     footer {
-            margin: 0 auto;
-            width: 768px;
+        padding: 0 32px;
+        width: 768px;
         }
 
     .footer-block {
@@ -217,7 +226,7 @@ footer {
         position: relative;
         border-radius: 30px;
         padding: 40px 40px 28px 40px;
-        width: 624px;
+        max-width: 768px;
     }
 
 
@@ -229,14 +238,14 @@ footer {
         position: absolute;
         right: 40px;
         top: 40px;
-        width: 160px;
+        max-width: 160px;
         margin-bottom: 0;
+        padding: 15px;
     }
 
     .footer-phone-link {
         font-size: 14px;
         line-height: 129%;
-        padding: 15px;
     }
 
     .social-links {
@@ -255,7 +264,7 @@ footer {
     }
 
     .footer-slogan {
-        width: 524px;
+        width: 100%;
         margin-bottom: 100px;
         text-align: center;
         padding: 0 50px;
@@ -335,7 +344,7 @@ footer {
 
 
     .footer-block {
-        width: 1136px;
+        max-width: 1280px;
     }
 
 
