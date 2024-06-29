@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.container {
+.advertisement-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,7 +76,7 @@
 }
 
 @media (min-width: 768px) {
-  .container {
+  .advertisement-container {
     width: 704px;
     padding: 80px 64px;
   }
@@ -105,7 +105,7 @@
   padding: 50px 0;
 }
 
-  .container {
+.advertisement-container {
     width: 1150px;
     padding: 83px 80px;
     flex-direction: row;
