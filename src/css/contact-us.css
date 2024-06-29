@@ -161,7 +161,8 @@ margin-bottom: 28px;
     .contact-us-section{
         width: 1280px;
         padding: 0 65px;
-        margin-bottom: 100px;
+        
+        margin: 0 auto;
       }
     .title-contact{
         min-width: 240px;
