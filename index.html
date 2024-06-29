@@ -14,7 +14,7 @@
     />
     
     <script type="module" crossorigin src="/Team-project-06/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Team-project-06/assets/index-ed98f44d.css">
+    <link rel="stylesheet" href="/Team-project-06/assets/index-4d6b62ae.css">
   </head>
   <body>
 
@@ -323,6 +323,7 @@
       <section id="contact-us" class="contact-us-section">
   <div class="contact-us-container container">
     <h2 class="title-contact">Contact Us</h2>
+    <div class="contact-wrap">
     <div class="modal-contact">
       <p class="modal-text-contact">
         Please use the form below to contact us. Enter your name, email, phone,
@@ -330,7 +331,7 @@
       </p>
       <form action="">
         <div class="modal-field-contact">
-          <label for="user-name" class="label-name">Name</label>
+          <label for="user-name" class="label-name"></label>
 
           <input
             type="text"
@@ -378,27 +379,28 @@
       <picture class="contact-img-pic">
         <source
           media="(min-width: 1280px)"
-          srcset="/src/img/decst img/contact_watch_desc.jpg 1x, /src/img/decst img/contact_watch_desc@2x.jpg 2x"
+          srcset="..img/decst_img/contact_watch_desc.jpg 1x, /img/decst_img/contact_watch_desc@2x.jpg 2x"
         />
         <source
           media="(min-width: 768px)"
-          srcset="/src/img/tblet img/contact_watch_tblet.jpg 1x, /src/img/tblet img/contact_watch_tblet@2x.jpg 2x"
+          srcset="..img/tblet_img/contact_watch_tblet.jpg 1x, /img/tblet_img/contact_watch_tblet@2x.jpg 2x"
         />
         <source
           media="(max-width: 767px)"
           srcset="
-            /src/img/mob_img/contact_watch_mob.jpg    1x,
-            /src/img/mob_img/contact_watch_mob@2x.jpg 2x
+            ..img/mob_img/contact_watch_mob.jpg    1x,
+            /img/mob_img/contact_watch_mob@2x.jpg 2x
           "
         />
         <img
-          src="/src/img/decst img/contact_watch_desc.jpg"
+          src="..img/decst img/contact_watch_desc.jpg"
           alt="contact_watch"
           class="contact-img"
           width="360"
         />
       </picture>
     </div>
+  </div>
   </div>
 </section>
 
