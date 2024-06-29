@@ -12,10 +12,6 @@ body {
 /* ---MOBILE MEDIA--- */
 
 @media screen and (max-width: 374px) {
-  .section {
-    padding-bottom: 60px;
-  }
-
   .container {
     max-width: 374px;
     padding: 0 20px 0px 20px;
@@ -32,9 +28,7 @@ body {
     padding-right: 20px;
   }
 
-  .section {
-    padding-bottom: 60px;
-  }
+  
 }
 
 /* ---TABLET MEDIA---*/
@@ -47,11 +41,8 @@ body {
 		padding-left: 32px;
 		padding-right: 32px;
 	}
-
-	.section {
-		padding-bottom: 80px;
-	}
 }
+	
 
 /* ---DESCTOP MEDIA--- */
 
@@ -60,12 +51,8 @@ body {
 		max-width: 1280px;
 		margin-right: auto;
 		margin-left: auto;
-		padding-left: 65px;
-		padding-right: 65px;
+		
 	}
 
-	.section {
-		padding-bottom: 100px;
-	}
 }
 

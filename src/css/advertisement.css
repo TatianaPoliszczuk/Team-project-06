@@ -1,5 +1,5 @@
 .advertisement-section {
-  display: flex;
+  
 }
 
 .advertisement-container {
@@ -106,6 +106,7 @@
 }
 
 .advertisement-container {
+  margin: 0 auto;
     width: 1150px;
     padding: 83px 80px;
     flex-direction: row;
