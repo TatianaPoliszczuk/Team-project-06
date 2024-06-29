@@ -4,50 +4,136 @@
     <div class="sale-content">
       <ul class="sale-link">
         <li class="sale-list">
-          <img
-            class="sale-images"
-            src="./images/actions.jpg"
-            alt=""
-            width="96px"
-            height="100px"
-          />
+          <picture>
+            <source
+              srcset="/img/decst img/sale_green_desc.png 1x, /img/decst img/sale_green_desc@2x.png 2x"
+              media="(min-widht:1280px)"
+            />
+            <source
+              srcset="/img/tblet img/sale_green_tblet.png 1x, /img/tblet img/sale_green_tblet@2x.png 2x"
+              media="(min-widht:768px)"
+            />
+            <source
+              srcset="
+                /img/mob_img/sale_green_mob.png    1x,
+                /img/mob_img/sale_green_mob@2x.png 2x
+              "
+              media="(min-widht:320px)"
+            />
+            <img
+              class="sale-images"
+              src="/img/decst img/sale_green_desc.png"
+              alt="sale_green"
+              width="96"
+              height="100"
+            />
+          </picture>
         </li>
         <li class="sale-list">
-          <img
-            class="sale-images"
-            src="./images/actions1.jpg"
-            alt=""
-            width="96px"
-            height="100px"
-          />
+          <picture>
+            <source
+              srcset="/img/decst img/sale_blue_desc.png 1x, /img/decst img/sale_blue_desc@2x.png 2x"
+              media="(min-widht:1280px)"
+            />
+            <source
+              srcset="/img/tblet img/sale_blue_tblet.png 1x, /img/tblet img/sale_blue_tblet@2x.png 2x"
+              media="(min-widht:768px)"
+            />
+            <source
+              srcset="
+                /img/mob_img/sale_blue_mob.png    1x,
+                /img/mob_img/sale_blue_mob@2x.png 2x
+              "
+              media="(min-widht:320px)"
+            />
+            <img
+              class="sale-images"
+              src="/img/decst img/sale_blue_desc.png"
+              alt="sale_blue"
+              width="96"
+              height="100"
+            />
+          </picture>
         </li>
         <li class="sale-list">
-          <img
-            class="sale-images"
-            src="./images/actions2.jpg"
-            alt=""
-            width="96px"
-            height="100px"
-          />
+          <picture>
+            <source
+              srcset="/img/decst img/sale_side_desc.png 1x, /img/decst img/sale_side_desc@2x.png 2x"
+              media="(min-widht:1280px)"
+            />
+            <source
+              srcset="/img/tblet img/sale_side_tblet.png 1x, /img/tblet img/sale_side_tblet@2x.png 2x"
+              media="(min-widht:768px)"
+            />
+            <source
+              srcset="
+                /img/mob_img/sale_side_mob.png    1x,
+                /img/mob_img/sale_side_mob@2x.png 2x
+              "
+              media="(min-widht:320px)"
+            />
+            <img
+              class="sale-images"
+              src="/img/decst img/sale_side_desc.png"
+              alt="sale_side"
+              width="96"
+              height="100"
+            />
+          </picture>
         </li>
         <li class="sale-list">
-          <img
-            class="sale-images"
-            src="./images/actions3.jpg"
-            alt=""
-            width="96px"
-            height="100px"
-          />
+          <picture>
+            <source
+              srcset="/img/decst img/sale_back_desc.png 1x, /img/decst img/sale_back_desc@2x.png 2x"
+              media="(min-widht:1280px)"
+            />
+            <source
+              srcset="/img/tblet img/sale_back_tblet.png 1x, /img/tblet img/sale_back_tblet@2x.png 2x"
+              media="(min-widht:768px)"
+            />
+            <source
+              srcset="
+                /img/mob_img/sale_back_mob.png    1x,
+                /img/mob_img/sale_back_mob@2x.png 2x
+              "
+              media="(min-widht:320px)"
+            />
+            <img
+              class="sale-images"
+              src="/img/decst img/sale_back_desc.png"
+              alt="sale_back"
+              width="96"
+              height="100"
+            />
+          </picture>
         </li>
       </ul>
       <div class="sale-list-big">
-        <img
-          class="sale-images-big"
-          src="./images/actions4.jpg"
-          alt=""
-          width="328px"
-          height="398px"
-        />
+        <picture>
+          <source
+            srcset="/img/decst img/sale_main_desc.png 1x, /img/decst img/sale_main_desc@2x.png 2x"
+            media="(min-widht:1280px)"
+          />
+          <source
+            srcset="/img/tblet img/sale_main_tblet.png 1x, /img/tblet img/sale_main_tblet@2x.png 2x"
+            media="(min-widht:768px)"
+          />
+          <source
+            srcset="
+              /img/mob_img/sale_main_mob.png    1x,
+              /img/mob_img/sale_main_mob@2x.png 2x
+            "
+            media="(min-widht:320px)"
+          />
+          <img
+            class="sale-images-big"
+            src="/img/decst img/sale_main_desc.png"
+            alt="sale_main"
+            width="328"
+            height="398"
+          />
+        </picture>
+
       </div>
     </div>
   </div>
@@ -66,12 +152,14 @@
         and has a precise AMOLED touch screen. The sensitive touch screen is
         complemented by buttons that can be used in any conditions.
       </p>
-      <button type="" class="sale-button-f">Fused carbon fiber</button>
-      <button type="" class="sale-button-gr">Grade-5 Titanuim</button>
-      <button type="" class="sale-button-at">Athlete</button>
-      <button type="" class="sale-button-go">Golfer</button>
-      <button type="" class="sale-button-co">Commander</button>
-      <button type="" class="sale-button-ad">Adventurer</button>
+      <div class="sale-gryp">
+        <span class="sale-button-f">Fused carbon fiber</span>
+        <span class="sale-button-gr">Grade-5 Titanuim</span>
+        <span class="sale-button-at">Athlete</span>
+        <span class="sale-button-go">Golfer</span>
+        <span class="sale-button-co">Commander</span>
+        <span class="sale-button-ad">Adventurer</span>
+      </div>
     </div>
   </div>
 </section>
