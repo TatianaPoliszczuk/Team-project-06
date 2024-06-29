@@ -90,12 +90,16 @@ p {
     width: 235px;
     height: 285px;
     background: url("path_to_image");
+
     /* transform: rotate(-180deg); */
 }
 
 .sale-images-big:hover,
 .sale-images-big:focus { 
     transform: rotate(-180deg);
+
+    
+
 }
 
 
@@ -157,6 +161,7 @@ p {
     padding: 8px 12px;
     justify-content: center;
     align-items: center;
+
     /* color: var(--background); */
 
 }

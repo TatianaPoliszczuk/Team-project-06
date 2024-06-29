@@ -1,14 +1,15 @@
 .header-up {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 88px;
+  padding: 26px 0px 0px 0px;
+  align-items: center;
+}
+
+.header-container {
   padding: 26px 0px 0px 0px;
   width: 1280px;
   height: 88px;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.header-all {
-  width: 90%;
-  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -91,27 +92,25 @@
   display: inline-block;
 }
 
-/* --------------------------------------------------------------------- */
-
-@media (min-width: 375px) {
-  .container {
-    max-width: 370px;
-  }
-}
-
 /* ---------------------Mobile---------------------------------- */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
-    padding: 20px 0px 0px 0px;
-    width: 375px;
+    max-width: 375px;
+    padding: 20px 0;
     height: 74px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
   }
 
-  .header-all {
+  .header-container {
     padding: 20px 0px 0px 0px;
     width: 335px;
     height: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
   }
 
   .header-menu {
@@ -145,9 +144,12 @@
   }
 }
 
-@media (min-width: 768px) {
+/* ----------------------------------TABLET------------------------------- */
+
+@media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    padding: 26px 0px 0px 0px;
+    max-width: 768px;
     height: 92px;
   }
 
@@ -159,7 +161,7 @@
     display: none;
   }
 
-  .header-all {
+  .header-container {
     padding: 20px 0px 0px 0px;
     width: 704px;
     height: 40px;
@@ -176,18 +178,12 @@
   }
 }
 
-@media (min-width: 1280px) {
-  .header-up {
-    padding: 26px 0px 0px 0px;
-    width: 1280px;
-    height: 88px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+/* -----------------------------------DESKTOP------------------------------------ */
 
-  .header-all {
-    width: 90%;
-    max-width: 1200px;
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

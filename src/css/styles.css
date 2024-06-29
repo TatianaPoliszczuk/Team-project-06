@@ -1,14 +1,10 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+
+
 @import url('../fonts/fonts.css');
 @import url('./common.css');
 @import url('./reset.css');
 
-@import url('./header.css');
+/*@import url('./header.css');*/
 @import url('./hero.css');
 @import url('./about-us.css');
 @import url('./catalog.css');
@@ -18,7 +14,7 @@
 @import url('./contact-us.css');
 @import url('./footer.css');
 @import url('./mob-menu.css');
-@import url('./arrow.css');
+
 
 
 
