@@ -1,8 +1,8 @@
 .contact-us-section{
+  min-width: 320px;
+    max-width: 375px;
   padding: 0px 20px;
-  width: px;
-  height: px;
-  margin-bottom: 60px;
+     margin-top: 60px;
 }
 .contact-us-container{
 display: flex;
@@ -55,6 +55,12 @@ margin-bottom: 28px;
     padding-bottom: 12px;
     color: #0C0C0C;
 }
+.modal-input:hover, 
+.modal-input:focus, 
+.modal-texarea:hover, 
+.modal-texarea:focus {
+  border: 1px solid #3350E9;
+}
 .modal-texarea{
     width: 279px;
     height: 100%;
@@ -104,14 +110,16 @@ margin-bottom: 28px;
   
   @media screen and (min-width: 375px){
     .contact-us-section{
+    
       width: 375px;
     }
   }
 
   @media screen and (min-width: 768px) {
     .contact-us-section{
+        padding: 0 32px;
         min-width: 768px;
-        margin-bottom: 80px;
+        margin-top: 80px;
       }
     .title-contact{
         min-width: 240px;
@@ -159,15 +167,15 @@ margin-bottom: 28px;
 
   @media screen and (min-width: 1280px) {
     .contact-us-container{
-      max-width: 1180px;
-        padding-left: 15px;
-        padding-right: 15px;
+      width: 1280px;
+      padding: 0px 65px;
+      margin-top: 100px;  
     }
     .contact-us-section{
         width: 1280px;
         padding: 0 65px;
         margin-top: 100px;
-        margin: 0 auto;
+        
       }
     .title-contact{
         min-width: 240px;
