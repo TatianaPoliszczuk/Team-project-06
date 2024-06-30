@@ -1,6 +1,7 @@
 .advertisement-section {
   margin-top: 60px;
-  margin: 0 auto;
+  margin-right: auto;
+      margin-left: auto;
     padding-left: 16px;
     padding-right: 16px;
     min-width: 312px;
@@ -84,7 +85,8 @@
 @media (min-width: 768px) {
   .advertisement-section{
     max-width: 768px;
-    margin: 0 auto;
+    margin-right: auto;
+      margin-left: auto;
     margin-top: 80px;
     padding-left: 32px;
     padding-right: 32px;
@@ -115,9 +117,11 @@
 @media (min-width: 1280px) {
 
 .advertisement-section{
-  margin: 0 auto;
+  
   max-width: 1280px;
   margin-top: 100px;
+  margin-right: auto;
+      margin-left: auto;
 }
 
 .advertisement-container {
