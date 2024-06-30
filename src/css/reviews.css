@@ -4,6 +4,7 @@
     width: 375px;
     height: 318px;
 margin: 0 auto ;
+margin-bottom: 60px;
 }
 .title-reviews{
 font-weight: 600;
@@ -51,7 +52,8 @@ padding-bottom: 8px;}
 @media screen and (min-width:704px) {
     .section-reviews{width: 704px;
         height: 356px; 
-    margin: 0 auto;}
+    margin: 0 auto;
+margin-bottom: 80px;}
     .title-reviews{ font-weight: 600;
         font-size: 48px;
         line-height: 0.9;
@@ -91,7 +93,8 @@ padding-bottom: 8px;}
     padding: 0px 65px;
     
     
-margin: 0 auto;}
+margin: 0 auto;
+margin-bottom: 100px;}
     .title-reviews{
         font-weight: 600;
             font-size: 48px;
