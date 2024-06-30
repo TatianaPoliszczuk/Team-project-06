@@ -82,7 +82,7 @@
 
 @media (min-width: 768px) {
   .advertisement-section{
-    
+    max-width: 768px;
     margin: 0 auto;
     padding-left: 32px;
     padding-right: 32px;
