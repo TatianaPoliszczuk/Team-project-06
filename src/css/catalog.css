@@ -39,7 +39,7 @@
  }
 
  .catalog-text-one {
-     margin: 0;
+     margin-left: 28px;
  }
 
  .catalog-subtitle {
@@ -107,6 +107,10 @@
     .catalog-item{
         width: calc((100% - 32px) / 2);
     }
+
+     .catalog-text-one {
+         margin-left: 32px;
+     }
 
     .catalog-subtitle{
         font-size: 20px;
