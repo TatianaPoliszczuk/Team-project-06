@@ -126,10 +126,12 @@ margin-bottom: 28px;
       margin-left: auto;
         max-width: 768px;
         margin-top: 80px;
+        padding: 0 32px;
       }
 
       .contact-us-container{
         margin: 0 auto;
+        
       }
       
     .title-contact{
