@@ -61,7 +61,9 @@ margin-bottom: 28px;
 .modal-texarea:hover, 
 .modal-texarea:focus {
   border: 1px solid #3350E9;
+  outline: none;
 }
+
 .modal-texarea{
     width: 279px;
     height: 100%;
@@ -112,14 +114,14 @@ margin-bottom: 28px;
   @media screen and (min-width: 375px){
     .contact-us-section{
     
-      width: 375px;
+      max-width: 375px;
     }
   }
 
   @media screen and (min-width: 768px) {
     .contact-us-section{
         padding: 0 32px;
-        min-width: 768px;
+        max-width: 768px;
         margin-top: 80px;
       }
     .title-contact{
@@ -167,17 +169,19 @@ margin-bottom: 28px;
 
 
   @media screen and (min-width: 1280px) {
+    .contact-us-section{
+      max-width: 1280px;
+      padding: 0 65px;
+      margin-top: 100px;
+      margin: 0 auto;
+      
+    }
     .contact-us-container{
       width: 1280px;
       padding: 0px 65px;
       margin-top: 100px;  
     }
-    .contact-us-section{
-        width: 1280px;
-        padding: 0 65px;
-        margin-top: 100px;
-        
-      }
+    
     .title-contact{
         min-width: 240px;
         height: 44px;
