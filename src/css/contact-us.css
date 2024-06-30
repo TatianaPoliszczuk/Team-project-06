@@ -3,6 +3,8 @@
     max-width: 375px;
   padding: 0px 20px;
      margin-top: 60px;
+     margin-right: auto;
+      margin-left: auto;
 }
 
 .contact-us-container{
@@ -120,7 +122,8 @@ margin-bottom: 28px;
 
   @media screen and (min-width: 768px) {
     .contact-us-section{
-        padding: 0 32px;
+      margin-right: auto;
+      margin-left: auto;
         max-width: 768px;
         margin-top: 80px;
       }
@@ -172,6 +175,8 @@ margin-bottom: 28px;
     .contact-us-section{
       max-width: 1280px;
       margin-top: 100px;  
+      margin-right: auto;
+      margin-left: auto;
     }
 
     .contact-us-container{
