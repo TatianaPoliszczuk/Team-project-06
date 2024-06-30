@@ -4,6 +4,7 @@
   padding: 0px 20px;
      margin-top: 60px;
 }
+
 .contact-us-container{
 display: flex;
 flex-direction: column;
@@ -194,7 +195,7 @@ margin-bottom: 28px;
         
     }
     .modal-text-contact{
-      padding-left: 60p;
+      padding-left: 60px;
       width: 460px;
       height: 40px;
     }
