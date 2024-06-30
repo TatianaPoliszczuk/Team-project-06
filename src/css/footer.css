@@ -1,8 +1,9 @@
 footer {
-    margin: 0 auto;
+    margin-right: auto;
+      margin-left: auto;
     /* width: 320px; */
     width: 100%;
-    margin: 0 auto;
+    margin-top: 60px;
     padding: 0 20px;
     text-align: center;
 }
@@ -211,7 +212,8 @@ footer {
 @media screen and (min-width:375px) {
     footer {
         width: 375px;
-        margin: 0 auto;
+        margin-right: auto;
+      margin-left: auto;
         margin-top: 60px;
     }
 }
@@ -221,6 +223,8 @@ footer {
 
     footer {
         margin-top: 80px;
+        margin-right: auto;
+      margin-left: auto;
         padding: 0 32px;
         width: 768px;
     }
@@ -344,7 +348,8 @@ footer {
 
     footer {
         margin-top: 100px;
-        margin: 0 auto;
+        margin-right: auto;
+      margin-left: auto;
         width: 1280px;
     }
 
