@@ -109,8 +109,7 @@
 }
 
 .hero .hero-img{
-  width: 335px;
-  display: block;
+  width: 375px;
   margin: 0 auto;
 }
 
@@ -203,7 +202,7 @@
     .hero-list .hero-box-list-link {
       padding-top: 0px;
       }
-    .hero .hero-img {
+    .hero .hero-img{
       width: 704px;
     }
 }
@@ -223,14 +222,14 @@
     }
 
     .hero .hero-flex {
-    gap: 407px;
-    max-width: 1280px;
-    padding: 0 65px;
-    margin: 0 auto;
+      gap: 407px;
+      max-width: 1280px;
+      padding: 0 65px;
+      margin: 0 auto;
     }
 
-        .hero .hero-img {
-          width: 1150px;
-          margin-top: 40px;
+    .hero .hero-img {
+      width: 1150px;
+      margin-top: 40px;
         }
 }

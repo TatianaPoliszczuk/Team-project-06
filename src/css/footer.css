@@ -1,11 +1,10 @@
-
 footer {
     margin: 0 auto;
     /* width: 320px; */
     width: 100%;
-        margin: 0 auto;
-        padding: 0 20px;
-        text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
 }
 
 
@@ -209,11 +208,11 @@ footer {
 
 
 @media screen and (min-width:375px) {
-        footer {
-            width: 375px;
-            margin: 0 auto;
-        }
-                }
+    footer {
+        width: 375px;
+        margin: 0 auto;
+    }
+}
 
 
 @media screen and (min-width:768px) {
@@ -221,7 +220,7 @@ footer {
     footer {
         padding: 0 32px;
         width: 768px;
-        }
+    }
 
     .footer-block {
         text-align: center;
@@ -340,9 +339,9 @@ footer {
 @media screen and (min-width:1280px) {
 
     footer {
-            margin: 0 auto;
-            width: 1280px;
-        }
+        margin: 0 auto;
+        width: 1280px;
+    }
 
 
     .footer-block {

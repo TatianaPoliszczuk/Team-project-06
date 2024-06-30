@@ -1,8 +1,13 @@
-.advertisement-container {
-  display: flex;
+.advertisement-section {
+  margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    min-width: 312px;
+    max-width: 367px;
+    
 }
 
-.advertisement-section {
+.advertisement-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,7 +81,13 @@
 }
 
 @media (min-width: 768px) {
-  .advertisement-section {
+  .advertisement-section{
+    max-width: 768px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .advertisement-container {
     width: 704px;
     padding: 80px 64px;
   }
@@ -100,7 +111,16 @@
 }
 
 @media (min-width: 1280px) {
-  .advertisement-section {
+
+.advertisement-section{
+  margin: 0 auto;
+  max-width: 1280px;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+
+.advertisement-container {
+  margin: 0 auto;
     width: 1150px;
     padding: 83px 80px;
     flex-direction: row;

@@ -1,71 +1,71 @@
 html {
-  scroll-behavior: smooth;
-}
-
-body {
-	font-family: Gilroy, sans-serif;
-	color: #0c0c0c;
-	background-color: rgba(255, 255, 255, 0.87);
-
-}
-
-/* ---MOBILE MEDIA--- */
-
-@media screen and (max-width: 374px) {
-  .section {
-    padding-bottom: 60px;
+	scroll-behavior: smooth;
   }
-
-  .container {
-    max-width: 374px;
-    padding: 0 20px 0px 20px;
-    
+  
+  body {
+	  font-family: Gilroy, sans-serif;
+	  color: #0c0c0c;
+	  background-color: rgba(255, 255, 255, 0.87);
+  
   }
-}
-
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .section {
-    padding-bottom: 60px;
-  }
-}
-
-/* ---TABLET MEDIA---*/
-
-@media screen and (min-width: 768px) {
-	.container {
-		max-width: 768px;
-		margin-right: auto;
-		margin-left: auto;
-		padding-left: 32px;
-		padding-right: 32px;
-	}
-
+  
+  /* ---MOBILE MEDIA--- */
+  
+  @media screen and (max-width: 374px) {
 	.section {
-		padding-bottom: 80px;
+	  padding-bottom: 60px;
 	}
-}
-
-/* ---DESCTOP MEDIA--- */
-
-@media screen and (min-width: 1280px) {
+  
 	.container {
-		max-width: 1280px;
-		margin-right: auto;
-		margin-left: auto;
-		padding-left: 65px;
-		padding-right: 65px;
+	  max-width: 374px;
+	  padding: 0 20px 0px 20px;
+	  
 	}
-
+  }
+  
+  @media screen and (min-width: 375px) {
+	.container {
+	  max-width: 375px;
+	  margin-right: auto;
+	  margin-left: auto;
+	  padding-left: 20px;
+	  padding-right: 20px;
+	}
+  
 	.section {
-		padding-bottom: 100px;
+	  padding-bottom: 60px;
 	}
-}
+  }
+  
+  /* ---TABLET MEDIA---*/
+  
+  @media screen and (min-width: 768px) {
+	  .container {
+		  max-width: 768px;
+		  padding-left: 32px;
+		  padding-right: 32px;
+	  }
+  
+	  .section {
+		  padding-bottom: 80px;
+	  }
+  }
+  
+  /* ---DESCTOP MEDIA--- */
+  
+  @media screen and (min-width: 1280px) {
+	  .container {
+		  max-width: 1280px;
+		  margin-right: auto;
+		  margin-left: auto;
+		  padding-left: 65px;
+		  padding-right: 65px;
+	  }
+  
+	  .section {
+		  padding-bottom: 100px;
+	  }
+  }
+
+
 

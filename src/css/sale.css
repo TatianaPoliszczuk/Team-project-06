@@ -22,8 +22,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-
+    margin-top: 60px;
+    
 }
+
 
 .sale-content {
     display: flex;
@@ -313,6 +315,17 @@ p {
 @media screen and (min-width:375px) {
     .section-sale {
         width: 375px;
+        /* margin-left: 20px; */
+        margin: 0 auto;
+        margin-top: 60px;
+        
+    }
+
+    .container-sale { 
+        margin-left: 20px;
+    }
+
+    .container-sale-ty { 
         margin-left: 20px;
     }
 
@@ -321,7 +334,12 @@ p {
 @media screen and (min-width:768px) {
     .section-sale {
         width: 768px;
-        margin-left: 32px;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+    .container-sale { 
+      margin-left: 32px;
     }
 
     .sale-logo {
@@ -365,8 +383,9 @@ p {
     .container-sale-ty {
         width: 704px;
         height: 518px;
-        margin-left: 0;
+        margin-left: 32px;
         margin-top:40px;
+        
     }
 
     .container-sale-ty-m { 
@@ -443,6 +462,17 @@ p {
         padding: 0px 65px;
         width: 1280px;
         margin-left: 0;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .container-sale-nov { 
+        display: flex;
+       
+    }
+
+    .container-sale { 
+        margin-left: 0;
     }
 
     .sale-list-big {
@@ -462,6 +492,7 @@ p {
         height: 558px;
         margin-top: 84px;
         margin-left: 40px;
+        
     }
 
     .sale-logo-ty { 
