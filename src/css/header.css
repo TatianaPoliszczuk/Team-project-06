@@ -1,7 +1,5 @@
 .header-up {
-  padding: 20px 0px 0px 0px;
-  max-width: 375px;
-  height: 74px;
+  padding: 20px 0;
   margin: 0 auto;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -48,9 +46,7 @@
 
 @media screen and (min-width: 768px) {
   .header-up {
-    padding: 26px 0px 0px 0px;
-    max-width: 768px;
-    height: 92px;
+    padding: 26px 0;
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -88,9 +84,7 @@
 
 @media screen and (min-width: 1280px) {
   .header-up {
-    padding: 26px 0px 0px 0px;
-    max-width: 1280px;
-    height: 88px;
+    padding: 26px 0;
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
