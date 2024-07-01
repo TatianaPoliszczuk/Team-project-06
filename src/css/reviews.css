@@ -6,7 +6,7 @@
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 60px;
-
+    margin-top: 60px;
 }
 .title-reviews{
     font-family: "Gilroy", sans-serif;
@@ -52,12 +52,13 @@ padding-bottom: 8px;}
 
 
 /* =========Media Tablet========== */
-@media screen and (min-width:704px) {
+@media screen and (min-width:768px) {
     .section-reviews{width: 704px;
     height: 356px; 
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 80px;}
+    margin-bottom: 80px;
+    margin-top: 80px;}
 
     .title-reviews{ font-weight: 600;
 
@@ -67,7 +68,7 @@ padding-bottom: 8px;}
         color: #0c0c0c;
         
         }
-        .box-reviws{width: 704px;
+        .box-reviws{width: 768px;
             height: 272px;}
                         .reviews-list{display: flex;
                         flex-direction: row;
