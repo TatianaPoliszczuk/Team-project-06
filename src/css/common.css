@@ -6,9 +6,15 @@ html {
 	  font-family: Gilroy, sans-serif;
 	  color: #0c0c0c;
 	  background-color: rgba(255, 255, 255, 0.87);
-  
   }
   
+  .container {
+    max-width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
   /* ---MOBILE MEDIA--- */
   
   @media screen and (max-width: 374px) {
