@@ -31,19 +31,23 @@
 
  }
 
- .catalog-cover-wrap {
-    padding: 24px 28px;
- }
+ /* .catalog-cover-wrap {
+    padding: 42px 64px;
+ } */
 
  .catalog-img {
      /* display: block; */
-    width: 279px;
-    height: 262px;
+    width: 208px;
+    height: 226px;
+    margin-left: 64px;
+    margin-top: 42px;
+    margin-bottom: 18px;
  }
 
- /* .catalog-text-one {
+ .catalog-text-one {
      margin-left: 28px;
- } */
+     
+ }
 
  .catalog-subtitle {
      font-weight: 500;
@@ -109,18 +113,19 @@
         height: 414px;
     }
 
-    .catalog-cover-wrap {
-        padding: 24px 32px;
-    }
+    
 
     .catalog-img { 
-        width: 280px;
-        height: 312px;
+        width: 268px;
+        height: 292px;
+        margin-top: 34px;
+        margin-left: 38px;
+        margin-bottom: 20px;
     }
 
-     /* .catalog-text-one {
+     .catalog-text-one {
          margin-left: 32px;
-     } */
+     }
 
     .catalog-subtitle{
         font-size: 20px;
@@ -160,8 +165,11 @@
     }
 
     .catalog-img {
-        width: 304px;
-        height: 312px;
+        width: 292px;
+        height: 292px;
+        margin-top: 24px;
+        margin-left: 32px;
+        margin-bottom: 10px;
     }
     
     
