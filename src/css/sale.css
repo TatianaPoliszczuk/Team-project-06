@@ -24,6 +24,7 @@ p {
     padding: 0;
     margin-top: 60px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -58,8 +59,8 @@ p {
     /* border-radius: 20px; */
     /* width: 132px;
     height: 132px; */
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     background: #f3f3f3;
     /* padding: 16px;
     margin-top: 10px; */
@@ -79,7 +80,7 @@ p {
     /* border-radius: 50px; */
     /* width: 428px;
     height: 558px; */
-    width: 335px;
+    width: 320px;
     height: 385px;
     background: #f3f3f3;
     padding: 50px;
@@ -110,7 +111,7 @@ p {
     width: 530px;
     height: 558px; */
     border-radius: 30px;
-    width: 335px;
+    width: 320px;
     background-color: #3350e9;
     /* margin-top: 84px;
     margin-left: 40px; */
@@ -327,6 +328,19 @@ p {
 
     .container-sale-ty { 
         margin-left: 20px;
+    }
+
+    .sale-list { 
+        width: 80px;
+        height: 80px;
+    }
+
+    .sale-list-big { 
+    width: 335px;
+    }
+
+    .container-sale-ty { 
+        width: 335px;
     }
 
 }
