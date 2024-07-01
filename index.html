@@ -14,7 +14,7 @@
     />
     
     <script type="module" crossorigin src="/Team-project-06/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Team-project-06/assets/index-6987390f.css">
+    <link rel="stylesheet" href="/Team-project-06/assets/index-29ace7be.css">
   </head>
   <body>
 
@@ -497,72 +497,71 @@
       <form class="contact-left-form">
         <div class="modal-field-contact">
           <label for="user-name" class="label-name"></label>
+            <input
+              type="text"
+              name="user-name"
+              class="modal-input"
+              placeholder="Name"
+              id="user-name"
+            />
+          </div>
+          <div class="modal-field-contact">
+            <label for="user-email" class="label-name"></label>
 
-          <input
-            type="text"
-            name="user-name"
-            class="modal-input"
-            placeholder="Name"
-            id="user-name"
-          />
-        </div>
-        <div class="modal-field-contact">
-          <label for="user-email" class="label-name"></label>
+            <input
+              type="email"
+              name="user-email"
+              class="modal-input"
+              placeholder="Email"
+              id="user-email"
+            />
+          </div>
+          <div class="modal-field-contact">
+            <label for="user-phone" class="label-name"></label>
 
-          <input
-            type="email"
-            name="user-email"
-            class="modal-input"
-            placeholder="Email"
-            id="user-email"
+            <input
+              type="tel"
+              name="user-phone"
+              class="modal-input"
+              placeholder="Phone"
+              id="user-phone"
+            />
+          </div>
+          <div class="modal-field-texarea-contact">
+            <label for="user-comment" class="label-name"></label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-texarea"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <button type="submit" class="button-modal">Send</button>
+        </form>
+      </div>
+      <div class="contact-img-wrap">
+        <picture class="contact-img-pic">
+          <source
+            media="(min-width: 1280px)"
+            srcset="/Team-project-06/assets/contact_watch_desc-6752786b.jpg 1x, /Team-project-06/assets/contact_watch_desc@2x-21c03eb2.jpg 2x"
           />
-        </div>
-        <div class="modal-field-contact">
-          <label for="user-phone" class="label-name"></label>
-
-          <input
-            type="tel"
-            name="user-phone"
-            class="modal-input"
-            placeholder="Phone"
-            id="user-phone"
+          <source
+            media="(min-width: 768px)"
+            srcset="/Team-project-06/assets/contact_watch_tblet-494704a7.jpg 1x, /Team-project-06/assets/contact_watch_tblet@2x-0cbd0ed6.jpg 2x"
           />
-        </div>
-        <div class="modal-field-texarea-contact">
-          <label for="user-comment" class="label-name"></label>
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            class="modal-texarea"
-            placeholder="Comment"
-          ></textarea>
-        </div>
-        <button type="submit" class="button-modal">Send</button>
-      </form>
+          <source
+            media="(max-width: 767px)"
+            srcset="/Team-project-06/assets/contact_watch_mob-ad394a09.jpg 1x, /Team-project-06/assets/contact_watch_mob@2x-3327b9e6.jpg 2x"
+          />
+          <img
+            src="/Team-project-06/assets/contact_watch_desc-6752786b.jpg"
+            alt="contact_watch"
+            class="contact-img"
+            width="360"
+          />
+        </picture>
+      </div>
     </div>
-    <div class="contact-img-wrap">
-      <picture class="contact-img-pic">
-        <source
-          media="(min-width: 1280px)"
-          srcset="/Team-project-06/assets/contact_watch_desc-6752786b.jpg 1x, /Team-project-06/assets/contact_watch_desc@2x-21c03eb2.jpg 2x"
-        />
-        <source
-          media="(min-width: 768px)"
-          srcset="/Team-project-06/assets/contact_watch_tblet-494704a7.jpg 1x, /Team-project-06/assets/contact_watch_tblet@2x-0cbd0ed6.jpg 2x"
-        />
-        <source
-          media="(max-width: 767px)"
-          srcset="/Team-project-06/assets/contact_watch_mob-ad394a09.jpg 1x, /Team-project-06/assets/contact_watch_mob@2x-3327b9e6.jpg 2x"
-        />
-        <img
-          src="/Team-project-06/assets/contact_watch_desc-6752786b.jpg"
-          alt="contact_watch"
-          class="contact-img"
-          width="360"
-        />
-      </picture>
-    </div>
-  </div>
   </div>
 </section>
 
