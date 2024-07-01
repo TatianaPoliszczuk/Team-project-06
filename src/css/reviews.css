@@ -1,7 +1,8 @@
 
 .section-reviews{
     padding: 0px 20px;
-    width: 375px;
+    min-width: 320px;
+    max-width: 375px;
     height: 318px;
     margin-right: auto;
     margin-left: auto;
@@ -52,7 +53,8 @@ padding-bottom: 8px;}
 
 /* =========Media Tablet========== */
 @media screen and (min-width:768px) {
-    .section-reviews{width: 704px;
+    .section-reviews{max-width: 768px;
+        padding: 0 32px;
     height: 356px; 
     margin-right: auto;
     margin-left: auto;
@@ -95,7 +97,7 @@ padding-bottom: 8px;}
 /* =========Media decst========== */
 @media screen and (min-width:1280px) {
     .section-reviews{
-    width: 1280px;
+    max-width: 1280px;
     height: 356px;
     padding: 0px 65px;
     margin-right: auto;
