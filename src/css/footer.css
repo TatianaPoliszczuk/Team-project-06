@@ -295,7 +295,6 @@ footer {
     .footer-links-list {
         align-items: baseline;
         flex-wrap: nowrap;
-        flex-direction: nowrap;
         width: 100%;
         gap: 0 19px;
     }
