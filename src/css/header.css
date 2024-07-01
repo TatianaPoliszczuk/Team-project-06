@@ -8,6 +8,8 @@
 }
 
 .header-container {
+  padding-left: 20px;
+  padding-right: 30px;
   width: 335px;
   height: 34px;
   display: flex;
