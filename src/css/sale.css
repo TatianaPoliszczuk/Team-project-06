@@ -23,7 +23,7 @@ p {
     flex-wrap: wrap;
     padding: 0;
     margin-top: 60px;
-    
+    margin-left: 20px;
 }
 
 
@@ -315,7 +315,7 @@ p {
 @media screen and (min-width:375px) {
     .section-sale {
         width: 375px;
-        /* margin-left: 20px; */
+        margin-left: 0px;
         margin: 0 auto;
         margin-top: 60px;
         
