@@ -1,82 +1,69 @@
-*,
-*::before,
-*::after {
-box-sizing: border-box;
-
-}
-
-:root {
---font-family: 'Gilroy', sans-serif;
---main: #0c0c0c;
---accent: #3350e9;
---background: #fbfbfb;
---cards: #f3f3f3;
-}
-
 html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-body {
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
-  background-color: #fbfbfb;
-  overflow-x: hidden;
-}
-
-ul,
-ol {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
-  max-width: 375px;
-  min-width: 320px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
+	scroll-behavior: smooth;
   }
-  h2 {
-    font-size: 48px;
-    line-height: 44px;
-    line-height: 0.92;
+  
+  body {
+	  font-family: Gilroy, sans-serif;
+	  color: #0c0c0c;
+	  background-color: rgba(255, 255, 255, 0.87);
+  
   }
-}
+  
+  /* ---MOBILE MEDIA--- */
+  
+  @media screen and (max-width: 374px) {
+	.section {
+	  padding-bottom: 60px;
+	}
+  
+	.container {
+	  max-width: 374px;
+	  padding: 0 20px 0px 20px;
+	  
+	}
+  }
+  
+  @media screen and (min-width: 375px) {
+	.container {
+	  max-width: 374px;
+	 margin: 0 auto;
+	  padding: 0 20px 0 20px;
+	}
+  
+	.section {
+	  padding-bottom: 60px;
+	}
+  }
+  
+  /* ---TABLET MEDIA---*/
+  
+  @media screen and (min-width: 768px) {
+	  .container {
+		  max-width: 768px;
+		  padding-left: 32px;
+		  padding-right: 32px;
+	  }
+  
+	  .section {
+		  padding-bottom: 80px;
+	  }
+  }
+  
+  /* ---DESCTOP MEDIA--- */
+  
+  @media screen and (min-width: 1280px) {
+	  .container {
+		  max-width: 1280px;
+		  margin-right: auto;
+		  margin-left: auto;
+		  padding-left: 65px;
+		  padding-right: 65px;
+	  }
+  
+	  .section {
+		  padding-bottom: 100px;
+	  }
+  }
 
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 65px;
-  }
-}
+
+

@@ -7,9 +7,11 @@
     padding: 20px;
   }
 
+
   .header-socials {
     display: none;
   }
+
 
   .open-menu-btn {
     display: flex;
@@ -161,6 +163,7 @@
   }
 
   .header-menu a {
+    font-weight: 500;
     text-decoration: none;
     font-size: 16px;
     color: #000;

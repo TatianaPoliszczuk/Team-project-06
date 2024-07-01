@@ -1,39 +1,88 @@
-<section class="contact-us-section">
-<div class="contact-us-container">
+<section id="contact-us" class="contact-us-section">
+  <div class="contact-us-container">
     <h2 class="title-contact">Contact Us</h2>
+    <div class="contact-wrap">
     <div class="modal-contact">
-        <p class="modal-text-contact">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
-        <form action="">
-            <div class="modal-field-contact"><label for="user-name" class="label-name">Name</label>
-                
-                <input type="text" name="user-name" class="modal-input" placeholder="user-name" id="user-name">
-            </div>
-            <div class="modal-field-contact"><label for="user-email" class="label-name">Email</label>
-                
-                <input type="email" name="user-email" class="modal-input" placeholder="user-email" id="user-email">
-            </div>
-            <div class="modal-field-contact"><label for="user-phone" class="label-name">Phone</label>
-                
-                <input type="tel" name="user-phone" class="modal-input" placeholder="user-phone" id="user-phone">
-            </div>
-            <div class="modal-field-texarea-contact"><label for="user-comment" class="label-name">Comment</label>
-                <textarea name="user-comment" id="user-comment" class="modal-texarea" placeholder="Text input"></textarea>
-            </div>
-            <button type="submit" class="button-modal">Send</button>
+      <p class="modal-text-contact">
+        Please use the form below to contact us. Enter your name, email, phone,
+        and message and we'll get back to you shortly.
+      </p>
+      <form class="contact-left-form">
+        <div class="modal-field-contact">
+          <label for="user-name" class="label-name"></label>
+            <input
+              type="text"
+              name="user-name"
+              class="modal-input"
+              placeholder="Name"
+              id="user-name"
+            />
+          </div>
+          <div class="modal-field-contact">
+            <label for="user-email" class="label-name"></label>
+
+            <input
+              type="email"
+              name="user-email"
+              class="modal-input"
+              placeholder="Email"
+              id="user-email"
+            />
+          </div>
+          <div class="modal-field-contact">
+            <label for="user-phone" class="label-name"></label>
+
+            <input
+              type="tel"
+              name="user-phone"
+              class="modal-input"
+              placeholder="Phone"
+              id="user-phone"
+            />
+          </div>
+          <div class="modal-field-texarea-contact">
+            <label for="user-comment" class="label-name"></label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-texarea"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <button type="submit" class="button-modal">Send</button>
         </form>
+      </div>
+      <div class="contact-img-wrap">
+        <picture class="contact-img-pic">
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              /img/decst_img/contact_watch_desc.jpg    1x,
+              /img/decst_img/contact_watch_desc@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              /img/tblet_img/contact_watch_tblet.jpg    1x,
+              /img/tblet_img/contact_watch_tblet@2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              /img/mob_img/contact_watch_mob.jpg    1x,
+              /img/mob_img/contact_watch_mob@2x.jpg 2x
+            "
+          />
+          <img
+            src="/img/decst_img/contact_watch_desc.jpg"
+            alt="contact_watch"
+            class="contact-img"
+            width="360"
+          />
+        </picture>
+      </div>
     </div>
-    <div class="contact-img">
-    <picture>
-        <source media="(min-width: px)" srcset="">
-        <source media="(min-width: px)" srcset="">
-        <source media="(max-width:px)" srcset="">
-        <img
-      src=""
-      alt=""
-      class=""
-      width=""
-    />
-      </picture>
-    </div>
-</div>
+  </div>
 </section>

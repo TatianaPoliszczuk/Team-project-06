@@ -1,17 +1,17 @@
-body {
-  margin: 0;}
-    p {
-      margin: 0;
-    }
 
-.container {
-  max-width: 335px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
+/* .container-hero {
+  
+} */
 
 .hero {
   margin-bottom: 60px;
+  max-height: 732px;
+}
+
+.hero .hero-flex{
+  padding: 0 20px;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .hero .hero-title {
@@ -38,10 +38,11 @@ body {
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
   margin-bottom: 28px;
+  padding: 0;
+  
 }
 
 .hero .hero-list {
-  height: 44px;
   display: flex;
   flex-direction: row;
   margin-bottom: 28px;
@@ -55,6 +56,8 @@ body {
 
 .hero-box-list .box {
   position: relative;
+  height: 44px;
+  width: 44px;
   border-radius: 50%;
   border: 2px solid #fbfbfb;
   transition: transform 250ms ease-in-out;
@@ -62,16 +65,17 @@ body {
 
 .hero-box-list .box:nth-child(1) {
   border: 2px solid #fbfbfb;
+
 }
 
 .hero-box-list .box:nth-child(2) {
-  left: -10px;
+  left: -12px;
   border: 2px solid #fbfbfb;
   z-index: 1;
 }
 
 .hero-box-list .box:nth-child(3) {
-  right: 20px;
+  right: 25px;
   border: 2px solid #fbfbfb;
   z-index: 2;
 }
@@ -79,6 +83,11 @@ body {
 .hero-box-list .box:hover {
   transform: scale(1.2);
 }
+
+.hero-list .hero-box-list-link{
+  padding-top: 26px;
+}
+
 
 .hero-list .hero-link {
   font-family: "Gilroy", sans-serif;
@@ -89,9 +98,7 @@ body {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0c0c0c;
-  height: 18px;
-  min-width: 72px;
-  margin-top: 26px;
+  width: 72px;
   margin-left: 155px;
   transition: color 250ms ease-in-out;
 }
@@ -101,6 +108,128 @@ body {
   color: #3350e9;
 }
 
-.hero .hero-foto {
-  border-radius: 30px;
+.hero .hero-img{
+  width: 335px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px){
+  .hero {
+      margin: 80px 0 0 0;
+      max-height: 900px;
+    }
+  
+    .hero .hero-title {
+      font-family: "Gilroy", sans-serif;
+      font-weight: 600;
+      font-size: 70px;
+      line-height: 0.86;
+      letter-spacing: -0.02em;
+      color: #0c0c0c;
+      width: 557px;
+      height: 180px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .hero .hero-text {
+      font-family: "Gilroy", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      color: rgba(12, 12, 12, 0.7);
+      width: 480px;
+      height: 60px;
+      margin-bottom: 0;
+    }
+    .hero .hero-div-fl{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .hero .hero-flex{
+      max-width: 768px;
+      padding: 0 32px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      gap: 11px;
+      margin-bottom: 40px;
+      }
+
+      .hero-list .hero-box-list {
+        display: flex;
+        flex-direction: row;
+        max-width: 136px;
+      }
+
+    .hero .hero-list {
+      width: 136px;
+      display: flex;
+      flex-direction: column;
+      gap: 180px;
+      margin-bottom: 0;
+    }
+    .hero-box-list .box {
+      position: relative;
+      height: 56px;
+      width: 56px;
+    }
+
+    .hero-box-list .box:nth-child(2) {
+      left: -15px;
+}
+
+      .hero-box-list .box:nth-child(3) {
+        right: 30px;
+}
+
+    .hero-list .hero-link {
+      font-family: "Gilroy", sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1;
+      letter-spacing: -0.02em;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      color: #0c0c0c;
+      width: 72px;
+      margin-left: 0;
+      transition: color 250ms ease-in-out;
+      padding-left: 34px;
+    }
+    .hero-list .hero-box-list-link {
+      padding-top: 0px;
+      }
+    .hero .hero-img{
+      width: 704px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    
+    .hero {
+      margin: 80px 0 0 0;
+      max-height: 889px;
+    }
+
+    .hero .hero-title {
+      font-size: 72px;
+      line-height: 0.88;
+      width: 597px;
+      height: 189px;
+    }
+
+    .hero .hero-flex {
+      gap: 407px;
+      max-width: 1280px;
+      padding: 0 65px;
+      margin: 0 auto;
+    }
+
+    .hero .hero-img {
+      width: 1150px;
+      margin-top: 40px;
+        }
 }
