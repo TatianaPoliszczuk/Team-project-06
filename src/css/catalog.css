@@ -1,5 +1,5 @@
  .section-catalog {
-    margin-top: 60px;
+    padding-top: 60px;
  }
 
  .catalog-head {
@@ -27,8 +27,12 @@
     background-color: #F3F3F3;
      border-radius: 30px;
      width: 335px;
-    height: 364px;
+    /* height: 364px; */
 
+ }
+
+ .catalog-cover-wrap{
+    padding: 24px 28px;
  }
 
  /* .catalog-cover-wrap {
@@ -39,13 +43,14 @@
      /* display: block; */
     width: 208px;
     height: 226px;
-    margin-left: 64px;
+    margin: auto;
+    /* margin-left: 64px;
     margin-top: 42px;
-    margin-bottom: 18px;
+    margin-bottom: 18px; */
  }
 
  .catalog-text-one {
-     margin-left: 28px;
+     /* margin-left: 28px; */
      
  }
 
@@ -64,7 +69,7 @@
      line-height: 129%;
      letter-spacing: -0.02em;
      color: rgba(12, 12, 12, 0.5);
-     margin-bottom: 24px;
+     /* margin-bottom: 24px; */
  }
 
  .catalog-btn{
@@ -99,7 +104,7 @@
 
  @media (min-width: 768px){
     .section-catalog {
-        margin-top: 80px;
+        padding-top: 80px;
     }
 
     .catalog-head{
@@ -107,10 +112,19 @@
         line-height: 92%;
     }
 
+    .catalog-list{
+        flex-direction: row;
+        gap: 32px 16px;
+    }
+
     .catalog-item{
-        flex: 1 1 calc(50% - 20px);
+        /* flex: 1 1 calc(50% - 20px); */
         width: 344px;
-        height: 414px;
+        /* height: 414px; */
+    }
+
+    .catalog-cover-wrap {
+        padding: 24px 32px;
     }
 
     
@@ -118,14 +132,11 @@
     .catalog-img { 
         width: 268px;
         height: 292px;
-        margin-top: 34px;
+        /* margin-top: 34px;
         margin-left: 38px;
-        margin-bottom: 20px;
+        margin-bottom: 20px; */
     }
 
-     .catalog-text-one {
-         margin-left: 32px;
-     }
 
     .catalog-subtitle{
         font-size: 20px;
@@ -148,7 +159,7 @@
 
  @media (min-width: 1280px){
     .section-catalog {
-        margin-top: 100px;
+        padding-top: 100px;
     }
 
     .catalog-head{
@@ -168,12 +179,14 @@
         height: 414px;
     }
 
+    .catalog-cover-wrap{
+        
+    }
+
     .catalog-img {
         width: 292px;
-        height: 292px;
-        margin-top: 24px;
-        margin-left: 32px;
-        margin-bottom: 10px;
+        /* height: 292px; */
+
     }
     
     
