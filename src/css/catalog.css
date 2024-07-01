@@ -130,6 +130,10 @@
     .catalog-subtitle{
         font-size: 20px;
         line-height: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 280px;
     }
     
     .catalog-btn{
