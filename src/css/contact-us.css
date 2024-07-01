@@ -40,12 +40,12 @@ margin-bottom: 24px;
 
 .modal-text-contact{
 color: rgba(12, 12, 12, 0.70);
-font-family: Gilroy;
+font-family: "Gilroy", sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: 128%;
-letter-spacing: 0.02em;
+line-height: 129%;
+letter-spacing: -0.02em;
 margin-bottom: 28px;
 }
 .modal-input{
@@ -57,6 +57,7 @@ margin-bottom: 28px;
     padding-top: 12px;
     padding-bottom: 12px;
     color: #0C0C0C;
+
 }
 .modal-input:hover, 
 .modal-input:focus, 
@@ -138,6 +139,7 @@ margin-bottom: 28px;
         min-width: 240px;
         height: 44px;
         font-size: 48px;
+        line-height: 92%;
         font-weight: 600;
     }
     
@@ -149,11 +151,12 @@ margin-bottom: 28px;
       width: 460px;
       font-size: 16px;
       line-height: 125%;
-    
+      margin-bottom: 32px;
     }
     .modal-input{
       width: 460px;
       height: 52px;
+
     }
     .modal-texarea{
       width: 460px;
@@ -197,7 +200,7 @@ margin-bottom: 28px;
         min-width: 240px;
         height: 44px;
         font-size: 48px;
-        line-height: 91%;
+        line-height: 92%;
         margin-bottom: 40px;
     }
     .modal-contact{
@@ -210,9 +213,7 @@ margin-bottom: 28px;
         
     }
     .modal-text-contact{
-      padding-left: 60px;
       width: 460px;
-      height: 40px;
     }
     .modal-texarea{
       height: 90px;
