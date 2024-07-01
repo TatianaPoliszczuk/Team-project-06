@@ -326,9 +326,9 @@ p {
         margin-left: 20px;
     }
 
-    .container-sale-ty { 
+    /* .container-sale-ty { 
         margin-left: 20px;
-    }
+    } */
 
     .sale-list { 
         width: 80px;
@@ -397,7 +397,7 @@ p {
     .container-sale-ty {
         width: 704px;
         height: 518px;
-        margin-left: 32px;
+        /* margin-left: 32px; */
         margin-top:40px;
         
     }
@@ -480,10 +480,6 @@ p {
         margin-top: 100px;
     }
 
-    .container-sale-nov { 
-        display: flex;
-       
-    }
 
     .container-sale { 
         margin-left: 0;
@@ -504,7 +500,7 @@ p {
         border-radius: 50px;
         width: 530px;
         height: 558px;
-        margin-top: 84px;
+        margin-top: 0px;
         margin-left: 40px;
         
     }
