@@ -5,12 +5,9 @@
 .contact-us-container{
   
   padding: 0 20px;
-  min-width: 320px;
-  width: 100%;
+  max-width: 320px;
   margin: 0 auto;
-  display: flex;
-    flex-direction: column;
-    justify-content: center;
+ 
 }
 
 .title-contact{
@@ -36,6 +33,7 @@ margin-bottom: 24px;
 }
 
 .modal-contact{
+width: 320px;
  background: #F3F3F3;
  border-radius: 30px;
  padding: 48px 28px;

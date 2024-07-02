@@ -319,6 +319,13 @@ p {
 
 @media screen and (max-width:375px) { 
 
+.container-sale {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+
+
 .section-sale {
     /* padding: 0px 65px; */
     display: flex;
@@ -359,8 +366,9 @@ p {
 }
 
 
+
+
 @media screen and (min-width:375px) {
-    
     .section-sale { 
         padding-top: 60px;
     }
