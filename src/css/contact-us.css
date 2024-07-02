@@ -126,7 +126,7 @@ margin-bottom: 28px;
   
   @media screen and (min-width: 375px) and (max-width:767px) {
     .contact-us-section{
-    
+    padding-top: 80px;
       max-width: 375px;
     }
 
@@ -199,16 +199,14 @@ margin-bottom: 28px;
 
   @media screen and (min-width: 1280px) {
     .contact-us-section{
+      padding-top: 100px;
       
-      margin-top: 100px;  
-      margin-right: auto;
-      margin-left: auto;
     }
 
     .contact-us-container{
       max-width: 1280px;
-        padding: 0 65px;
         margin: 0 auto;
+        padding: 0px 65px;
        
     }
     
