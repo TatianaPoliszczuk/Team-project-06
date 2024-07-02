@@ -3,7 +3,7 @@
 }
 
 .contact-us-container{
-  max-width: 375px;
+  
   padding: 0 20px;
   min-width: 320px;
   width: 100%;
@@ -123,11 +123,16 @@ margin-bottom: 28px;
     border-radius: 30px;
     /* background: url(<path-to-image>) lightgray -264.69px -8.534px / 263.26% 103.41% no-repeat; */
   }
-  
-  @media screen and (min-width: 375px) and (max-width:767px) {
+ 
+
+  @media screen and (min-width: 375px)  {
     .contact-us-section{
-    padding-top: 80px;
+     padding-top: 80px;
+      
+    }
+    .contact-us-container{
       max-width: 375px;
+     
     }
 
     .contact-img-wrap { 
@@ -162,6 +167,7 @@ margin-bottom: 28px;
     }
     
     .modal-contact{
+      width: 100%;
       padding: 50px 122px;
       margin-bottom: 40px;
     }
