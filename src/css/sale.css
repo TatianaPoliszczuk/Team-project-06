@@ -17,19 +17,19 @@ p {
 } */
 
 
-.section-sale {
-    /* padding: 0px 65px; */
+/* .section-sale {
+    padding: 0px 65px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 60px;
     
-}
+} */
 
-.container-sale {
+/* .container-sale {
     max-width: 375px;
     margin: 0 auto;
     padding: 0 20px 0 20px;
-}
+} */
 
 .sale-content {
     display: flex;
@@ -62,8 +62,8 @@ p {
     /* border-radius: 20px; */
     /* width: 132px;
     height: 132px; */
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
     background: #f3f3f3;
     /* padding: 16px;
     margin-top: 10px; */
@@ -83,7 +83,7 @@ p {
     /* border-radius: 50px; */
     /* width: 428px;
     height: 558px; */
-    width: 320px;
+    width: 335px;
     height: 385px;
     background: #f3f3f3;
     padding: 50px;
@@ -114,7 +114,7 @@ p {
     width: 530px;
     height: 558px; */
     border-radius: 30px;
-    width: 320px;
+    width: 335px;
     background-color: #3350e9;
     /* margin-top: 84px;
     margin-left: 40px; */
@@ -316,10 +316,27 @@ p {
     height: 32px;
 }
 
+@media screen and (max-width:375px) { 
+.container-sale {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
 
+.section-sale {
+    /* padding: 0px 65px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+
+}
+
+}
 
 @media screen and (min-width:375px) {
-    
+    .section-sale { 
+        padding-top: 60px;
+    }
 
     .container-sale { 
         width: 375px;
