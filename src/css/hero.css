@@ -6,7 +6,7 @@
 }
 
 .hero {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   max-height: 732px;
 }
 
@@ -127,7 +127,7 @@
     }
 
   .hero {
-      padding-top: 60px;
+      padding-top: 0px;
       max-height: 900px;
     }
   
