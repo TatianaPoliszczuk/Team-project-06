@@ -108,10 +108,16 @@
   color: #3350e9;
 }
 
-/* .hero .hero-img{
-  width: 335px;
-  margin: 0 auto;
-} */
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .container-hero {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .hero-list .hero-link {
+    margin-left: 95px;
+  }
+}
 
 @media screen and (min-width: 768px){
   .container-hero {
