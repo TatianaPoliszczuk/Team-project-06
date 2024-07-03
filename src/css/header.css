@@ -12,6 +12,9 @@
     align-items: center;
     margin: 0 auto;
   }
+  .header-logo {
+    color: #0c0c0c;
+  }
   .header-menu {
     display: none;
   }
