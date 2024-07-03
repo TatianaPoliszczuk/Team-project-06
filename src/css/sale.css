@@ -68,7 +68,7 @@ p {
     /* padding: 16px;
     margin-top: 10px; */
     /* padding: 6px 6px; */
-    
+
 
 }
 
@@ -94,18 +94,17 @@ p {
 }
 
 .sale-images-big {
-    width: 235px;
-    height: 285px;
+
     background: url("path_to_image");
 
     /* transform: rotate(-180deg); */
 }
 
 .sale-images-big:hover,
-.sale-images-big:focus { 
+.sale-images-big:focus {
     transform: rotate(-180deg);
 
-    
+
 
 }
 
@@ -136,7 +135,7 @@ p {
     line-height: 112%; */
     letter-spacing: -0.02em;
     color: #fbfbfb;
-    width: 279px;
+    /* width: 279px; */
     /* width: 389px; */
 }
 
@@ -202,11 +201,11 @@ p {
     padding: 28px 0;
 }
 
-.sale-gryp { 
-    width: 279px;
+.sale-gryp {
+    /* width: 279px; */
     display: flex;
     flex-wrap: wrap;
-    gap:8px;
+    gap: 8px;
 }
 
 .sale-button-f {
@@ -317,51 +316,65 @@ p {
     height: 32px;
 }
 
-@media screen and (max-width:375px) { 
-
-.container-sale {
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 0 20px 0 20px;
-}
-
-
-.section-sale {
-    /* padding: 0px 65px; */
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 60px;
-
-}
+@media screen and (max-width:375px) {
 
     .container-sale {
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 0 20px 0 20px;
-}
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 0 20px 0 20px;
+    }
 
-.sale-list { 
-    width: 65px;
-    height: 65px; 
-    padding: 6px 6px;
-}
+    .sale-images {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
 
-.sale-list-big { 
-    width: 280px;
-    padding: 45px 15px;
-}
+    .sale-content {
+        display: block;
+    }
 
-.container-sale-ty { 
-    width: 280px;
-}
+    .sale-link {
+        justify-content: space-around;
+    }
 
-.container-sale-ty-m {
-    padding: 32px 10px;
-}
+    .section-sale {
+        /* padding: 0px 65px; */
+        /* display: flex;
+    flex-wrap: wrap; */
+        padding-top: 60px;
 
-.sale-text-fri {
-    width: 250px;
-}
+    }
+
+    .container-sale {
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 0 20px 0 20px;
+    }
+
+    .sale-list {
+        max-width: 80px;
+        max-height: 80px;
+        padding: 13px 14px;
+    }
+
+    .sale-list-big {
+        width: 100%;
+        height: auto;
+        padding: 50px;
+    }
+
+    /* .container-sale-ty {
+        width: 280px;
+    } */
+
+    .container-sale-ty-m {
+        padding: 48px 28px;
+    }
+
+    .sale-text-fri {
+        max-width: 279px;
+    }
 
 }
 
@@ -369,11 +382,11 @@ p {
 
 
 @media screen and (min-width:375px) {
-    .section-sale { 
+    .section-sale {
         padding-top: 60px;
     }
 
-    .container-sale { 
+    .container-sale {
         width: 375px;
         margin: 0 auto;
         padding: 0 20px 0 20px;
@@ -383,27 +396,27 @@ p {
         margin-left: 20px;
     } */
 
-    .sale-list { 
+    .sale-list {
         width: 80px;
         height: 80px;
         padding: 13px 14px;
     }
 
-    .sale-list-big { 
-    width: 335px;
-    padding: 50px;
+    .sale-list-big {
+        width: 335px;
+        padding: 50px;
     }
 
-    .container-sale-ty { 
+    .container-sale-ty {
         width: 335px;
     }
 
-    .container-sale-ty-m { 
+    .container-sale-ty-m {
         padding: 48px 28px;
     }
 
-    .sale-text-fri { 
-    width: 279px;
+    .sale-text-fri {
+        width: 279px;
     }
 
 }
@@ -413,7 +426,7 @@ p {
         padding-top: 80px;
     }
 
-    .container-sale { 
+    .container-sale {
         min-width: 768px;
         margin: 0 auto;
         padding: 0 32px 0 32px;
@@ -436,6 +449,10 @@ p {
         width: 132px;
         height: 132px;
         padding: 16px 18px;
+
+    }
+
+    .sale-list:not(:first-child) {
         margin-top: 10px;
     }
 
@@ -461,72 +478,72 @@ p {
         width: 704px;
         height: 518px;
         /* margin-left: 32px; */
-        margin-top:40px;
-        
+        margin-top: 40px;
+
     }
 
-    .container-sale-ty-m { 
+    .container-sale-ty-m {
         padding: 60px 60px;
     }
 
-    .sale-logo-ty { 
+    .sale-logo-ty {
         font-size: 32px;
         line-height: 112%;
         width: 436px;
     }
 
-    .sale-current-price { 
+    .sale-current-price {
         width: 78px;
     }
 
-    .sale-text-fri { 
+    .sale-text-fri {
         font-size: 16px;
         line-height: 125%;
         width: 584px;
         padding: 33px 0 37px;
     }
 
-    .sale-gryp { 
+    .sale-gryp {
         width: 398px;
 
     }
 
-    .sale-button-f { 
+    .sale-button-f {
         font-size: 14px;
         line-height: 129%;
         width: 145px;
         height: 34px;
     }
 
-    .sale-button-gr { 
+    .sale-button-gr {
         font-size: 14px;
         line-height: 129%;
         width: 139px;
         height: 34px;
     }
 
-    .sale-button-at { 
+    .sale-button-at {
         font-size: 14px;
         line-height: 129%;
         width: 70px;
         height: 34px;
     }
 
-    .sale-button-go { 
+    .sale-button-go {
         font-size: 14px;
         line-height: 129%;
         width: 64px;
         height: 34px;
     }
 
-    .sale-button-co { 
+    .sale-button-co {
         font-size: 14px;
         line-height: 129%;
         width: 105px;
         height: 34px;
     }
 
-    .sale-button-ad { 
+    .sale-button-ad {
         font-size: 14px;
         line-height: 129%;
         width: 95px;
@@ -540,7 +557,7 @@ p {
     }
 
 
-    .container-sale { 
+    .container-sale {
         min-width: 1280px;
         margin: 0 auto;
         padding: 0px 65px 0 65px;
@@ -552,25 +569,25 @@ p {
         padding: 80px 50px;
     }
 
-    .sale-images-big { 
+    .sale-images-big {
         width: 328px;
         height: 398px;
     }
 
-    .container-sale-ty { 
+    .container-sale-ty {
         border-radius: 50px;
         width: 530px;
         height: 558px;
         margin-top: 0px;
         margin-left: 40px;
-        
+
     }
 
-    .sale-logo-ty { 
+    .sale-logo-ty {
         width: 389px;
     }
 
-    .sale-text-fri { 
+    .sale-text-fri {
         width: 410px;
         padding: 30px 0 40px;
     }
