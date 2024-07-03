@@ -15,7 +15,7 @@
      display: flex;
      flex-wrap: wrap;
      gap: 20px;
-     padding-bottom: 40px;
+     /* padding-bottom: 40px; */
 
 
  }
@@ -176,7 +176,7 @@
     .catalog-item{
         flex: 1 1 calc(33.333% - 40px);
         width: 368px;
-        height: 414px;
+        /* height: 414px; */
     }
 
     .catalog-cover-wrap{
